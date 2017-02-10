@@ -6,11 +6,15 @@
     <title>Entact</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS Links -->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../public/css/sidenav.css">
-    <link href="../public/css/style.css" rel="stylesheet">
-    <link href="../public/css/themify-icons.css" rel="stylesheet">
-    <link href='../public/css/dosis-font.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/sidenav.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="css/themify-icons.css" rel="stylesheet">
+    <link href='css/dosis-font.css' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="css/mdb.css">
+    <link rel="stylesheet" type="text/css" href="css/entact.css">
+
 
     <!-- JavaScript Links -->
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -21,47 +25,59 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
     <script src="js/validator.js"></script>
+        <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Yellowtail" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                
+    <div class="container-fluid">
+      <div class="navbar-header">
+          
                 <div  class="navbar-brand">
-                    <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify btn-menu toggle">
+                    <a id="menu-toggle" href="#" class="text-nowrap glyphicon glyphicon-menu-hamburger btn-menu toggle" style="
+            font-size: 35px;"">
                         <i class="fa fa-bars"></i>
                     </a>
-                    <a href="#">Entact</a>
+            <a href="#" class="text-responsive flex-center" id="entact-header">Entact</a>
                 </div>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Create</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+
+
     <!-- Sidebar -->
     <div id="sidebar-wrapper">
         <nav id="spy">
-            <ul class="sidebar-nav nav">
+            <ul class="fix-navbar sidebar-nav nav">
                 <li class="sidebar-brand">
-                    <a href="index.html"><span class="fa fa-home solo">Home</span></a>
+                  <span class="white-text glyphicon glyphicon-home"></span>
+                    <a href="home.html">
+
+                      <span class="fa fa-anchor solo">
+                      Home
+                      </span></a>
                 </li>
-                <li>
-                    <a href="#anch1">
+
+                <li class="sidebar-brand">
+                <span class="white-text glyphicon glyphicon-plus"></span>
+                    <a href="create.html">
                         <span class="fa fa-anchor solo">Create Event</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#anch2">
+                <li class="sidebar-brand">
+                <span class="white-text glyphicon glyphicon-book"></span>
+                    <a href="joinedEvents.html">
                         <span class="fa fa-anchor solo">Joined Events</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#anch4">
+                <li class="sidebar-brand">
+                <span class="white-text glyphicon glyphicon-log-out"></span>
+                  
+                    <a href="index.html">
                         <span class="fa fa-anchor solo">Logout</span>
                     </a>
                 </li>
