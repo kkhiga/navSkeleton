@@ -3,15 +3,88 @@
 <head>
 	<title>Create Event</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/mdb.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
 </head>
 <body>
-	<h1>Create a new event here!</h1>
-	<h2>You will fill out event info here.</h2>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="text-center"> Create New Event </h1>
+		</div>
+	</div>
+
+
+	<form>
+
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Event Name*</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="(e.g. Soccer, CSE 170 Study Group, )"
+	  </div>
+	  
+
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Your/Organization Name*</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="(e.g. Jane Doe, UCSD Hiking Club )">
+	  </div>
+
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Location*</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="(e.g. Geisel Library, RIMAC, Costco, )">
+	  </div>
+
+	 <div class="form-group">
+	  <label for="example-date-input" class="col-2 col-form-label">Date</label>
+	  <div class="col-10">
+	    <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+	  </div>
+	</div>
+
+	<div class="form-group">
+	  <label for="example-time-input" class="col-2 col-form-label">Time</label>
+	  <div class="col-10">
+	    <input class="form-control" type="time" value="13:45:00" id="example-time-input">
+	  </div>
+	</div>
+
+	  
+	  <div class="form-group">
+	    <label for="exampleTextarea"> Brief Description</label>
+	    <textarea class="form-control" id="exampleTextarea" rows="2"></textarea>
+	  </div>
+
+	  
+
+	</form>
+<!-- 	<a href="confirm_create.html">
+	  <button class="btn btn-primary">Next</button>
+	 </a> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	<a href="confirm_create.html">
 		<h3>Next</h3>
 	</a>
 	<a href="home.html">
 		<h3>Return Home</h3>
 	</a>
+</div>
 </body>
 </html>
